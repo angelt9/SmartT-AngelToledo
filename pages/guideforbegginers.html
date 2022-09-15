@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/ccb009afa8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Guía para nuevos - Smart Training</title>
 </head>
 
@@ -20,7 +21,7 @@
     <div class="guia">
         <!--logo y nombre clickeable + barra de nav-->
         <header class="header">
-            <div>
+            <div data-aos="fade-right">
                 <a href="../index.html"><i class="fa-solid fa-dumbbell" alt="Logo Inicio" id="subir"></i></a>
                 <h1><a href="../index.html"> Smart Training</h1>
             </div>
@@ -64,7 +65,7 @@
             </h5>
             <a href="#"><button>Añadir al carrito</button></a>
         </main>
-        <section class="foto">
+        <section class="foto" data-aos="zoom-out">
             <img src="https://m.media-amazon.com/images/I/51-OfKhE9xL.jpg" alt="Libro para principiantes">
         </section>
         <div class="comments">
@@ -74,7 +75,7 @@
         </div>
 
         <!--inicio de footer-->
-        <footer class="footer">
+        <footer data-aos="zoom-out" class="footer">
             <h4><a href="">Feedback</a></h4>
             <h5>
                 Contactanos en nuestras redes o whatsapp
@@ -92,7 +93,10 @@
 
         </footer>
     </div>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
